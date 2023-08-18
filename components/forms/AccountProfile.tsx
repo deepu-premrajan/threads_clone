@@ -107,7 +107,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="flex flex-col justify-start gap-10ß"
+        className="flex flex-col justify-start gap-10"
       >
         <FormField
           control={form.control}
